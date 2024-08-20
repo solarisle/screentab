@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Screen Tab",
+  "version": "1.0",
+  "description": "To create unused tabs to screenshots",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Click me!"
+  }
+}
